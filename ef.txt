@@ -1,4 +1,36 @@
-hi
+hiiiiiiiiii
 
 
-hello
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git add .
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git diff -- staged
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git diff --staged
+diff --git a/ef.txt b/ef.txt
+index e720fc7..d85f71c 100644
+--- a/ef.txt
++++ b/ef.txt
+@@ -1,2 +1,2 @@
+-hi
++hiiiiiiiiii
+
+diff --git a/gh.txt b/gh.txt
+index e427aae..16d97b5 100644
+--- a/gh.txt
++++ b/gh.txt
+@@ -1 +1 @@
+-hiiiii
+\ No newline at end of file
++hiii
+\ No newline at end of file
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$
+
+
+
+
+sssss
