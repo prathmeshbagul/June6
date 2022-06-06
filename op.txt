@@ -1,2 +1,26 @@
 hii
-hey
+hey there
+hola
+
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git diff --staged
+diff --git a/mn.txt b/mn.txt
+index d9cfaed..febac44 100644
+--- a/mn.txt
++++ b/mn.txt
+@@ -1,2 +1,3 @@
+ hii
+ hey there
++hola
+\ No newline at end of file
+diff --git a/op.txt b/op.txt
+index ca55373..36b7a85 100644
+--- a/op.txt
++++ b/op.txt
+@@ -1,2 +1,3 @@
+ hii
+-hey
++hey there
++hola
+
