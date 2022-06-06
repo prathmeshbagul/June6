@@ -1,0 +1,38 @@
+one
+
+
+
+
+
+
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$  git diff --staged
+diff --git a/qr.txt b/qr.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/st.txt b/st.txt
+new file mode 100644
+index 0000000..e69de29
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git add .
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git diff --staged --no-renames
+diff --git a/qr.txt b/qr.txt
+new file mode 100644
+index 0000000..43dd47e
+--- /dev/null
++++ b/qr.txt
+@@ -0,0 +1 @@
++one
+\ No newline at end of file
+diff --git a/st.txt b/st.txt
+new file mode 100644
+index 0000000..43dd47e
+--- /dev/null
++++ b/st.txt
+@@ -0,0 +1 @@
++one
+\ No newline at end of file
