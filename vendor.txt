@@ -1,0 +1,56 @@
+change
+
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git diff --staged
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git status -s
+?? emp.txt
+?? vendor.txt
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ nano emp.txt
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git status -s
+?? emp.txt
+?? vendor.txt
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git diff --staged
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git add .
+warning: LF will be replaced by CRLF in emp.txt.
+The file will have its original line endings in your working directory
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git commit -m 'inital '
+[main 18d43e9] inital
+ 2 files changed, 2 insertions(+)
+ create mode 100644 emp.txt
+ create mode 100644 vendor.txt
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git diff -- staged
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git diff --staged
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ nano vendor.txt
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git add .
+warning: LF will be replaced by CRLF in vendor.txt.
+The file will have its original line endings in your working directory
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git diff --staged
+diff --git a/vendor.txt b/vendor.txt
+index e69de29..0835e4f 100644
+--- a/vendor.txt
++++ b/vendor.txt
+@@ -0,0 +1 @@
++change

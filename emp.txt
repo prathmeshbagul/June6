@@ -1,2 +1,37 @@
 diff check
 
+hello 
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$ git add .
+warning: LF will be replaced by CRLF in emp.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vendor.txt.
+The file will have its original line endings in your working directory
+
+Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
+$  git diff --staged
+diff --git a/emp.txt b/emp.txt
+index b0b4a87..7b873e3 100644
+--- a/emp.txt
++++ b/emp.txt
+@@ -1,2 +1,4 @@
+ diff check
+
++hello
++
+diff --git a/vendor.txt b/vendor.txt
+index e69de29..bef78b0 100644
+--- a/vendor.txt
++++ b/vendor.txt
+@@ -0,0 +1,56 @@
++change
++
++
++Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
++$ git diff --staged
++
++Bagu_pra@KLIN0078 MINGW64 ~/Desktop/6June/June6 (main)
++$ git status -s
++?? emp.txt
+:
